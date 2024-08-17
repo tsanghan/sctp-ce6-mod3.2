@@ -23,3 +23,50 @@ GitHub Authentication is the process of verifying your identity when accessing G
 
 6. **Web Authentication via Browser:**
    - When accessing GitHub via the web interface, authentication is typically done using a combination of username/password and two-factor authentication (2FA). You can also use Single Sign-On (SSO) for enterprise accounts.
+
+### 2. List of 15 Git Commands and Their Usage
+
+1. **`git init`**:
+   - Initializes a new Git repository in the current directory.
+
+2. **`git clone <repository>`**:
+   - Clones an existing Git repository from a remote server to your local machine.
+
+3. **`git status`**:
+   - Shows the status of your working directory and staging area, displaying changes that have been staged, unstaged, or not tracked.
+
+4. **`git add <file>`**:
+   - Adds specific files or changes in files to the staging area for the next commit.
+
+5. **`git commit -m "message"`**:
+   - Records changes to the repository with a descriptive message.
+
+6. **`git push origin <branch>`**:
+   - Pushes changes from the local branch to the remote repository.
+
+7. **`git pull origin <branch>`**:
+   - Fetches changes from the remote repository and merges them into the current branch.
+
+8. **`git branch`**:
+   - Lists, creates, or deletes branches. Without any arguments, it lists all the branches in the repository.
+
+9. **`git checkout <branch>`**:
+   - Switches to a different branch or restores files to a specific state.
+
+10. **`git merge <branch>`**:
+    - Merges changes from one branch into the current branch.
+
+11. **`git log`**:
+    - Shows the commit history for the current branch.
+
+12. **`git remote`**:
+    - Manages connections to remote repositories, allowing you to add, remove, or modify remotes.
+
+13. **`git fetch`**:
+    - Downloads objects and refs from another repository but does not merge them automatically.
+
+14. **`git rebase <branch>`**:
+    - Reapplies commits on top of another base branch. Often used to clean up commit history.
+
+15. **`git stash`**:
+    - Temporarily saves changes that are not yet ready to be committed so you can work on something else and come back later.
