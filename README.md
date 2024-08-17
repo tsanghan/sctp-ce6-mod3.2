@@ -70,3 +70,21 @@ GitHub Authentication is the process of verifying your identity when accessing G
 
 15. **`git stash`**:
     - Temporarily saves changes that are not yet ready to be committed so you can work on something else and come back later.
+
+### 3. The 4 Most Used Git Commands in Real-World Projects
+
+1. **`git clone`**:
+   - **Usage**: This command is commonly used when you first start working on a project. It allows you to copy a repository from a remote server to your local machine, so you can work on it locally.
+   - **Real-World Scenario**: Developers often use `git clone` to get a copy of the project repository on their local machines when joining a new project or setting up a new development environment.
+
+2. **`git commit`**:
+   - **Usage**: The `git commit` command is essential for recording changes to the repository. It creates a new snapshot of the changes made to the files in the repository.
+   - **Real-World Scenario**: Every time a developer makes a meaningful change, whether fixing a bug, adding a new feature, or refactoring code, they use `git commit` to save those changes in the project’s history.
+
+3. **`git push`**:
+   - **Usage**: This command is used to upload local repository content to a remote repository. It’s how you share your changes with others on the project.
+   - **Real-World Scenario**: After making and committing changes, developers push their code to the remote repository so that it can be reviewed, merged, and deployed. This is crucial for collaborative development.
+
+4. **`git pull`**:
+   - **Usage**: The `git pull` command is used to fetch and merge changes from the remote repository into your current branch. It ensures that your local copy of the repository is up to date with the latest changes.
+   - **Real-World Scenario**: Before starting new work or committing new changes, developers often pull the latest changes from the remote repository to avoid conflicts and ensure they are working with the most current version of the code.
